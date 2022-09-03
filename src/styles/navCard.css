@@ -1,0 +1,25 @@
+.navCard{
+    padding: 10px;
+    margin: 1vmax;
+    text-align: center;
+    background: #fff;
+}
+
+.navCard .navCard__img{
+    width: 10vmax;
+    height: 10vmax;
+}
+
+.navCard span{
+    display: block;
+}
+
+.navCard .navCard__proName{
+    color: #424242;
+    font-size: 16px;
+}
+
+.navCard .navCard__proPrice{
+    color: #ff6700;
+    font-size: 14px;
+}

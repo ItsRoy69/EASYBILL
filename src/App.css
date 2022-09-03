@@ -1,0 +1,6 @@
+.app__conatiner{
+  width: 100%;
+  min-height: 100vh;
+  background: #f1f1f1;
+  position: relative;
+}

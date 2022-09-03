@@ -1,0 +1,10 @@
+ .footerlink{
+    line-height: 32px;
+    font-size: 0.7em;
+    color: #b0b0b0;
+    display: block;
+}
+
+.footerlink:hover{
+    color: #fff;
+}
