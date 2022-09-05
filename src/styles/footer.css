@@ -52,3 +52,128 @@
     background: #fff;
     color: #212121;
 }
+
+
+/* ------------------------------------------------------ */
+
+.preFooter__box{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.preFooter__box .iconBx ion-icon,
+.preFooter__box .infoBx h3,
+.preFooter__box .infoBx p{
+    transition: 0.3s ease;
+}
+
+.preFooter__box:hover .iconBx ion-icon,
+.preFooter__box .infoBx h3,
+.preFooter__box:hover .infoBx h3,
+.preFooter__box:hover .infoBx p{
+    color: #111;
+}
+
+.preFooter__box .iconBx{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vmax;
+}
+
+ .preFooter__box .iconBx ion-icon{
+    font-size: 4em;
+    color: #b0b0b0;
+}
+
+ .infoBx{
+    height: 100%;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+ .infoBx h3
+{
+    margin-top: 1vmax;
+    font-size: 0.8em;
+}
+
+ .infoBx p{
+    font-size: 0.8em;
+    color: #b0b0b0;
+}
+
+/* 
+------------------------------------------------------ */
+
+.pFooter_left,
+.pFooter_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descBx{
+    margin-right:4vmax ;
+}
+
+.descBx p{
+    margin-top: 1vmax;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.descBx p span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.pFooter_left input{
+    display: block;
+    width: 240px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #b0b0b0;
+    padding: 20px 60px 20px 17px;
+    margin: 0;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+    background-color: #fff;
+
+}
+
+.pFooter_right .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pFooter_right .icons ion-icon{
+    font-size: 1.2em;
+    color: #b0b0b0;
+    margin: 0 1vmax;
+}
+
+
+/* ---------------------------------------- */
+
+.footerlink{
+    line-height: 32px;
+    font-size: 0.7em;
+    color: #b0b0b0;
+    display: block;
+}
+
+.footerlink:hover{
+    color: #fff;
+}
