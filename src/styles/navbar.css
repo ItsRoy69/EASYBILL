@@ -42,15 +42,16 @@
     transform: translateX(40%) scale(1.5);
 }
 
-.nav > .navlinks{
-    color: rgb(59, 59, 59);
+.nav a{
+    color: rgb(59, 59, 59)!important;;
     font-weight: 500;
-    font-size: 0.9vmax;
+    font-size: 14px;
     margin: 1vmax 1.2vmax;
     transition: 0.2s ease;
+    display: block;
 }
 
-.nav > .navlinks:hover{
+.nav a:hover{
     color: #ff6800;
     display: block;
 }
@@ -62,4 +63,62 @@
     width: 80px;
     height: 30px;
     border-radius: 20px;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: fixed;
+    left: 40px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 10;
+}
+
+
+/* ----------------------------------------------- */
+
+.navCard{
+    padding: 10px;
+    margin: 1vmax;
+    text-align: center;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navCard .navCard__img{
+    width: 10vmax;
+    height: 10vmax;
+}
+
+.navCard span{
+    display: block;
+}
+
+.navCard .navCard__proName{
+    color: #424242;
+    font-size: 16px;
+}
+
+.navCard .navCard__proPrice{
+    color: #ff6700;
+    font-size: 14px;
 }

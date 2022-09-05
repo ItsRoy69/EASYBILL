@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import PreNavbar from '../components/PreNavbar';
-import NavOption from '../components/NavOption';
 import Footer from '../components/Footer';
 import HotAccessoriesMenu from '../components/HotAccessoriesMenu';
 import data from '../data/data';
@@ -15,8 +14,7 @@ const Home = () => {
         <>
             <div className="home">
                 <Navbar />
-                <PreNavbar />
-                <NavOption miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio} accessories={data.accessories}/>
+                <PreNavbar />                
 
                 <div className="slider">
                     <Carousel fade>
