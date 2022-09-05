@@ -3,12 +3,12 @@ import Navbar from '../components/Navbar';
 import PreNavbar from '../components/PreNavbar';
 import NavOption from '../components/NavOption';
 import Footer from '../components/Footer';
-import StarProduct from '../components/StarProduct';
 import HotAccessoriesMenu from '../components/HotAccessoriesMenu';
 import data from '../data/data';
 
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/home.css'
 
 const Home = () => {
     return (
@@ -57,10 +57,19 @@ const Home = () => {
                             <img src="https://i02.appmifile.com/934_operator_in/07/06/2021/372a6e5d29c26c34b716b0408a533e3f.jpg" alt="" className='d-block w-100'/>
                         </Carousel.Item>
                     </Carousel>
-                </div>
+                </div>                
                 
-                
-                <StarProduct />        
+                <div className="starProductBx">              
+                    <div className='box' id='rightBx'> 
+                        <a href={data.starProduct[1].url}><img src={data.starProduct[1].image} alt="startProduct" /></a>  
+                        <a href={data.starProduct[2].url}><img src={data.starProduct[2].image} alt="startProduct" /></a>  
+                        <a href={data.starProduct[3].url}><img src={data.starProduct[3].image} id="wide" alt="startProduct" /></a>  
+                    </div>
+                    <div className='box' id='leftBx'>
+                        <a href={data.starProduct[0].url}><img src={data.starProduct[0].image} alt="startProduct" /></a>  
+                    </div>
+                    <div className='starProductBx_circle'><h4>EXPLORE</h4></div>
+                </div>    
                 <HotAccessoriesMenu />
                 <Footer footer={data.footer} />
             </div>

@@ -3,7 +3,6 @@ import Home from './pages/Home';
 import {Routes,Route} from 'react-router-dom'
 import {BrowserRouter as Router} from 'react-router-dom'
 import data from './data/data';
-import StarProduct from './components/StarProduct';
 import HotAccessoriesMenu from './components/HotAccessoriesMenu';
 import HotAccessories from './components/HotAccessories';
 import Footer from './components/Footer';
