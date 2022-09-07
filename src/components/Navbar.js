@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/navbar.css'
 import {Link} from 'react-router-dom'
-import data from '../data/data'
 
 const Navbar = () => {
     return (
@@ -12,7 +11,7 @@ const Navbar = () => {
                 </div>                    
                     <div class="dropdown">
                         <a className='navlinks'>Xiaomi Phones</a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" style={{left: "10vw"}}>
                             <div className="navCard">
                                 <a href="https://store.mi.com/in/search_https://store.mi.com/in/search_">
                                     <img src="https://i02.appmifile.com/867_operator_in/23/04/2021/3849c44ac78d65621750a114811711f9.png?width=140&height=140" className='navCard__img'/>
@@ -54,7 +53,7 @@ const Navbar = () => {
 
                     <div class="dropdown">
                         <a className='navlinks'>Redmi Phones</a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" style={{left: "10vw"}}>
                             <div className="navCard">
                                 <a href="https://store.mi.com/in/search_https://store.mi.com/in/search_">
                                     <img src="https://i02.appmifile.com/45_operator_in/04/03/2021/890c4652df767017f4857c5e90647d2b.png?width=140&height=140" className='navCard__img'/>
@@ -96,7 +95,7 @@ const Navbar = () => {
 
                     <div class="dropdown">
                         <a className='navlinks'>TV</a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" style={{left: "15vw"}}>
                             <div className="navCard">
                                 <a href="https://store.mi.com/in/search_https://store.mi.com/in/search_">
                                     <img src="https://i02.appmifile.com/620_operator_in/23/04/2021/3c98ae4c034583122a67669c840f249e.jpg?width=140&height=140" className='navCard__img'/>
@@ -126,7 +125,7 @@ const Navbar = () => {
 
                     <div class="dropdown">
                         <a className='navlinks'>Laptops & Tablets</a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" style={{left: "12vw"}}>
                             <div className="navCard">
                                 <a href="https://store.mi.com/in/search_https://store.mi.com/in/search_">
                                     <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/81DAE22D-023B-1742-5400-32A7760B0962.jpg?width=140&height=140" className='navCard__img'/>
@@ -162,7 +161,7 @@ const Navbar = () => {
 
                     <div class="dropdown">
                         <a className='navlinks'>Fitness</a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" style={{left: "12vw"}}>
                             <div className="navCard">
                                 <a href="https://store.mi.com/in/search_https://store.mi.com/in/search_">
                                     <img src="https://i02.appmifile.com/669_operator_in/29/09/2020/492027bef78ed4c69cfd68c2d299d49f.png?width=140&height=140" className='navCard__img'/>
@@ -198,7 +197,7 @@ const Navbar = () => {
 
                     <div class="dropdown">
                         <a className='navlinks'>Home</a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" style={{left: "8vw"}}>
                             <div className="navCard">
                                 <a href="https://store.mi.com/in/search_https://store.mi.com/in/search_">
                                     <img src="https://i02.appmifile.com/779_operator_in/22/12/2020/b740f2dbab9a4fef11065926e1aacc42.png?width=140&height=140" className='navCard__img'/>
@@ -234,7 +233,7 @@ const Navbar = () => {
 
                     <div class="dropdown">
                         <a className='navlinks'>Audio</a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" style={{left: "14vw"}}>
                             <div className="navCard">
                                 <a href="https://store.mi.com/in/search_https://store.mi.com/in/search_">
                                     <img src="https://i02.appmifile.com/77_operator_in/29/09/2020/842c0032334066f68c60de04c513c6e0.png?width=140&height=140" className='navCard__img'/>
