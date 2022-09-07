@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import PreNavbar from '../components/PreNavbar';
 import Footer from '../components/Footer';
-import HotAccessoriesMenu from '../components/HotAccessoriesMenu';
 import data from '../data/data';
+
+import {BsArrowRight} from 'react-icons/bs'
 
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -68,7 +69,354 @@ const Home = () => {
                     </div>
                     <div className='starProductBx_circle'><h4>EXPLORE</h4></div>
                 </div>    
-                <HotAccessoriesMenu />
+                
+
+                <div className="headingBx">
+                    <div></div>
+                    <p>CATEGORIES</p>
+                    <div></div>
+                </div>
+                <div className="hotAccessoriesMenuBx">
+
+                    <div class="dropdown">
+                        <p class="hotAccessoriesLink">Music Store</p>
+
+                        <div className="hotAccessories"  style={{left: "-25vw"}}>                         
+                            <div>
+                                <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/500BFA0B-CBEF-5DFF-79A9-E925F9F2FEE9.jpg" alt="Cover" />
+                            </div>
+                            {/* --2ndpart */}
+                            <div id='rightDiv'>
+                                <div className="box">
+                                    <a href="/">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://store.mi.com/in/search_">
+                                    <div className="imgBxBrowser">
+                                        <h1>Browse More</h1>
+                                        <BsArrowRight size='100px' />
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <p class="hotAccessoriesLink">Smart Devices</p>
+                        
+                        <div className="hotAccessories" style={{left: "-33vw"}}>                         
+                            <div>
+                                <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/500BFA0B-CBEF-5DFF-79A9-E925F9F2FEE9.jpg" alt="Cover" />
+                            </div>
+                            {/* --2ndpart */}
+                            <div id='rightDiv'>
+                                <div className="box">
+                                    <a href="/">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://store.mi.com/in/search_">
+                                    <div className="imgBxBrowser">
+                                        <h1>Browse More</h1>
+                                        <BsArrowRight size='100px' />
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <p class="hotAccessoriesLink">Home</p>
+                        
+                        <div className="hotAccessories" style={{left: "-43vw"}}>                         
+                            <div>
+                                <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/500BFA0B-CBEF-5DFF-79A9-E925F9F2FEE9.jpg" alt="Cover" />
+                            </div>
+                            {/* --2ndpart */}
+                            <div id='rightDiv'>
+                                <div className="box">
+                                    <a href="/">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://store.mi.com/in/search_">
+                                    <div className="imgBxBrowser">
+                                        <h1>Browse More</h1>
+                                        <BsArrowRight size='100px' />
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="dropdown">
+                        <p class="hotAccessoriesLink">Lifestyle</p>
+                        
+                        <div className="hotAccessories" style={{left: "-48vw"}}>                         
+                            <div>
+                                <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/500BFA0B-CBEF-5DFF-79A9-E925F9F2FEE9.jpg" alt="Cover" />
+                            </div>
+                            {/* --2ndpart */}
+                            <div id='rightDiv'>
+                                <div className="box">
+                                    <a href="/">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://store.mi.com/in/search_">
+                                    <div className="imgBxBrowser">
+                                        <h1>Browse More</h1>
+                                        <BsArrowRight size='100px' />
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <div class="dropdown">
+                        <p class="hotAccessoriesLink">Mobile Accessories</p>
+                        
+                        <div className="hotAccessories" style={{left: "-55vw"}}>                         
+                            <div>
+                                <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/500BFA0B-CBEF-5DFF-79A9-E925F9F2FEE9.jpg" alt="Cover" />
+                            </div>
+                            {/* --2ndpart */}
+                            <div id='rightDiv'>
+                                <div className="box">
+                                    <a href="/">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="box">
+                                    <a href="{link}">
+                                        <div className="box__imgBx" >
+                                            <img src="https://i01.appmifile.com/webfile/globalimg/in/cms/BF2A4279-A6D5-B4F0-FE37-633256CDC9FC.jpg" />
+                                        </div>
+                                        <div className="info">
+                                            <span className='proName'>name</span>
+                                            <span className='proPrice'>price</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://store.mi.com/in/search_">
+                                    <div className="imgBxBrowser">
+                                        <h1>Browse More</h1>
+                                        <BsArrowRight size='100px' />
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
                 <Footer footer={data.footer} />
             </div>
         </>
