@@ -268,7 +268,7 @@ const Navbar = () => {
                     </div>                  
                     
                
-                <a className='navlinks' href={`/audio`}>
+                <a className='navlinks' href={`/signup`}>
                     <button className='signup-btn'>Signup</button>
                 </a>
             </div>
