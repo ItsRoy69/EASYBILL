@@ -8,7 +8,7 @@ const Navbar = () => {
         <>
             <div className="nav">
                 <div className="logo" id='LogoBx'>
-                    <Link to="/" id='logo'> <img src={data.logo} alt="Not" id='logoImg' /></Link>
+                    <Link to="/" id='logo'> <img src="https://i01.appmifile.com/webfile/globalimg/pandora/mi-logo.svg" alt="Not" id='logoImg' /></Link>
                 </div>                    
                     <div class="dropdown">
                         <a className='navlinks'>Xiaomi Phones</a>
