@@ -1,0 +1,64 @@
+
+.categories{
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.categories_header h1{
+    font-weight: 600;
+    color: #222;
+}
+
+/* ----------------------------------------------- */
+
+.categories_dropdown:hover{
+    color: #ff6800;
+}
+
+
+.categories_dropdown_content {
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: fixed;
+}
+  
+.dropdown:hover .categories_dropdown_content {
+    display: block;
+    z-index: 1;
+}
+
+
+/* ----------------------------------------------- */
+
+.categories_dropdown_Card{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    width: 1000px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.categories_dropdown_Div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.categories_dropdown_Div > a{
+    width: 200px;
+    display: flex;
+    justify-content: start;
+}
