@@ -2,8 +2,11 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
+import item from '../assets/category_item.png'
+
 import "../styles/categories.css"
 
+import {BsCartPlusFill} from 'react-icons/bs'
 import {VscFoldDown} from 'react-icons/vsc'
 
 const Categories = () => {
@@ -57,7 +60,125 @@ const Categories = () => {
                           </div>
                     </div>  
                 <h1 className="categories_header_head">CATEGORIES</h1>                
-            </div>    
+            </div> 
+
+            <div className="categories_mid">
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <button className="categories_button_button">
+                      Add to cart
+                      &nbsp;<BsCartPlusFill />
+                    </button>
+                  </div>
+                </div>  
+
+            </div>
+             
         </div>    
       <Footer />
     </>
