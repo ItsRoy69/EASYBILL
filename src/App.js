@@ -5,6 +5,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import Signup from './pages/Signup';
 import Signin from './pages/Signin';
 import Categories from './pages/Categories';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/signin" element={<Signin />} />
           <Route exact path="/categories" element={<Categories />} />
+          <Route exact path="/cart" element={<Cart />} />
         </Routes>
       </div>
     </Router>
