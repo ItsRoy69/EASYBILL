@@ -42,7 +42,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 .e-c-i img{
     height: 100px;
@@ -61,7 +60,6 @@
     justify-content: space-around;
     border-top:  1px solid #b0b0b0;
     border-bottom: 1px solid #b0b0b0;
-
 }
 .n-fl{
     display: flex;
@@ -93,14 +91,14 @@
     border-radius: 30px;
     outline: none;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;   
-
+    
 }
 .bbtn{
      /* display: flex;
     gap: 6px; */
-
+   
     padding: 10px 12px;
-
+    
     color: white;
     background-color: #ff6700;
     border-radius: 30px;
@@ -135,9 +133,7 @@
     width: 90%;
     border-radius: 30px;
     box-shadow: rgba(255, 25, 9, 0.881) 0px 1px 2px 0px, rgba(197, 103, 69, 0.886) 0px 1px 3px 1px;   
-
-
-
+  
 }
 .fp-l{
 display: flex;
@@ -166,8 +162,6 @@ gap: 10px;
     width: 30%;
     border-right: 0.5px solid #b0b0b0 ;
     gap: 40px;
-
-
 }
 .po h6{
     color: #b0b0b0;
@@ -192,6 +186,7 @@ padding: 20px;
     width: 50%;
     padding: 5px;
 }
+
 .pbtn{
     padding: 10px 12px;
 
@@ -203,3 +198,33 @@ padding: 20px;
     cursor: pointer;
     width: 50%; 
 }
+.por1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+    padding: 20px;
+    }
+    .fi1{
+        display: flex;
+        gap: 15px;
+    }
+    /* .fi input{
+        width: 50%;
+        padding: 5px;
+    } */
+    .fi1 img{
+        height: 60px;
+        width: 70px;
+    }
+    .pbtn1{
+        padding: 10px 12px;
+
+        color: white;
+        background-color: #ff6700;
+        border-radius: 30px;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+        width: 60%; 
+    }
