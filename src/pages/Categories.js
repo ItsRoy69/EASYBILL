@@ -16,7 +16,7 @@ const Categories = () => {
         <div className="categories">
             <div className="categories_header">
                 
-                <div class="dropdown">
+                <div className="dropdown">
                         
                         <VscFoldDown className='categories_dropdown' size="50px"/>
                           <div className="categories_dropdown_content" style={{left: "12vw"}}>
