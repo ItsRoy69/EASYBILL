@@ -25,7 +25,7 @@ const SignUp = () => {
             <div className="signup_service_inputs">
               <div className="signup_service_name">
                 <input
-                  label="First Name"
+                  label="Country Name"
                   type="text"
                   className="service_signup_inputs signup_service_name_input "
                   placeholder="India"
