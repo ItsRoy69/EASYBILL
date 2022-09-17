@@ -29,7 +29,7 @@ router.post("/register", async (req, res) => {
     try {
       const userSearchByNumber = await Store.findOne({ number: number });
 
-      if (userSearchByEmail || userSearchByUsername) {
+      if (userSearchByNumber) {
         return res.status(422).json({ error: "store already exists." });
       }
 
