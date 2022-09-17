@@ -68,10 +68,38 @@ const Categories = () => {
                   <img src={item} alt="" />
                   <h1 className="categories_mid_card_head">Air Purifier</h1>
                   <div className="categories_button">
-                    <button className="categories_button_button">
-                      Add to cart
-                      &nbsp;<BsCartPlusFill />
-                    </button>
+                    <a href="/cart">
+                      <button className="categories_button_button">
+                        Add to cart
+                        &nbsp;<BsCartPlusFill />
+                      </button>
+                    </a>
+                  </div>
+                </div>  
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                   <a href="/cart">
+                      <button className="categories_button_button">
+                        Add to cart
+                        &nbsp;<BsCartPlusFill />
+                      </button>
+                    </a>
+                  </div>
+                </div>  
+
+                <div className="categories_mid_card">
+                  <img src={item} alt="" />
+                  <h1 className="categories_mid_card_head">Air Purifier</h1>
+                  <div className="categories_button">
+                    <a href="/cart">
+                      <button className="categories_button_button">
+                        Add to cart
+                        &nbsp;<BsCartPlusFill />
+                      </button>
+                    </a>
                   </div>
                 </div>  
 
@@ -101,32 +129,12 @@ const Categories = () => {
                   <img src={item} alt="" />
                   <h1 className="categories_mid_card_head">Air Purifier</h1>
                   <div className="categories_button">
-                    <button className="categories_button_button">
-                      Add to cart
-                      &nbsp;<BsCartPlusFill />
-                    </button>
-                  </div>
-                </div>  
-
-                <div className="categories_mid_card">
-                  <img src={item} alt="" />
-                  <h1 className="categories_mid_card_head">Air Purifier</h1>
-                  <div className="categories_button">
-                    <button className="categories_button_button">
-                      Add to cart
-                      &nbsp;<BsCartPlusFill />
-                    </button>
-                  </div>
-                </div>  
-
-                <div className="categories_mid_card">
-                  <img src={item} alt="" />
-                  <h1 className="categories_mid_card_head">Air Purifier</h1>
-                  <div className="categories_button">
-                    <button className="categories_button_button">
-                      Add to cart
-                      &nbsp;<BsCartPlusFill />
-                    </button>
+                    <a href="/cart">
+                      <button className="categories_button_button">
+                        Add to cart
+                        &nbsp;<BsCartPlusFill />
+                      </button>
+                    </a>
                   </div>
                 </div>  
 
@@ -135,10 +143,12 @@ const Categories = () => {
                   <img src={item} alt="" />
                   <h1 className="categories_mid_card_head">Air Purifier</h1>
                   <div className="categories_button">
-                    <button className="categories_button_button">
-                      Add to cart
-                      &nbsp;<BsCartPlusFill />
-                    </button>
+                    <a href="/cart">
+                      <button className="categories_button_button">
+                        Add to cart
+                        &nbsp;<BsCartPlusFill />
+                      </button>
+                    </a>
                   </div>
                 </div>  
 
@@ -147,10 +157,12 @@ const Categories = () => {
                   <img src={item} alt="" />
                   <h1 className="categories_mid_card_head">Air Purifier</h1>
                   <div className="categories_button">
-                    <button className="categories_button_button">
-                      Add to cart
-                      &nbsp;<BsCartPlusFill />
-                    </button>
+                    <a href="/cart">
+                      <button className="categories_button_button">
+                        Add to cart
+                        &nbsp;<BsCartPlusFill />
+                      </button>
+                    </a>
                   </div>
                 </div>  
 
@@ -159,10 +171,12 @@ const Categories = () => {
                   <img src={item} alt="" />
                   <h1 className="categories_mid_card_head">Air Purifier</h1>
                   <div className="categories_button">
-                    <button className="categories_button_button">
-                      Add to cart
-                      &nbsp;<BsCartPlusFill />
-                    </button>
+                    <a href="/cart">
+                      <button className="categories_button_button">
+                        Add to cart
+                        &nbsp;<BsCartPlusFill />
+                      </button>
+                    </a>
                   </div>
                 </div>  
 
@@ -170,10 +184,12 @@ const Categories = () => {
                   <img src={item} alt="" />
                   <h1 className="categories_mid_card_head">Air Purifier</h1>
                   <div className="categories_button">
-                    <button className="categories_button_button">
-                      Add to cart
-                      &nbsp;<BsCartPlusFill />
-                    </button>
+                    <a href="/cart">
+                      <button className="categories_button_button">
+                        Add to cart
+                        &nbsp;<BsCartPlusFill />
+                      </button>
+                    </a>
                   </div>
                 </div>  
 
